@@ -48,6 +48,9 @@ public:
     bool isEqual(const Point& other) const {
         return x == other.x && y == other.y;
     }
+ 
+ double getX() const { return x; }
+    double getY() const { return y; }
 };
 
 class Circle : public Point {
